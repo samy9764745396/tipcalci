@@ -1,0 +1,39 @@
+body{
+margin: 0;
+padding: 0;
+background-color: aliceblue;
+}
+/* 
+.container{
+    height: 325px;
+    width: 350px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 75px 75px 75px 75px;
+    padding: 25px;
+} */
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    background-color: white;
+    height: 50%;
+    width: 50%;
+    margin-bottom: 10%;
+padding-bottom: 5%;
+
+}
+
+.col1{
+    margin-top: 100px;
+   
+}
+.col2{
+    margin-top: 140px;
+    margin-left: 400px;
+    background-color: blueviolet;
+}
+
